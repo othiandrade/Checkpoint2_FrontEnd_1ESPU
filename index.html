@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TwentyOnePilotsPage</title>
+    <title>Twenty One Pilots</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <header>
         <nav>
             <div class="logo">Twenty One Pilots</div>
@@ -15,39 +16,52 @@
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#membros">Membros</a></li>
                 <li><a href="#discografia">Discografia</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
-        </nav> 
+        </nav>
     </header>
 
     <section class="hero">
         <div class="hero-content">
-            <h1> TWENTY ONE PILOTS</h1>
-            <p>Stay alive. Stay alive for me.</p>
+            <h1>TWENTY ONE PILOTS</h1>
+            <p>"Stay alive. Stay alive for me."</p>
             <a href="#sobre" class="btn">Conheça o duo</a>
-        </div> 
+        </div>
     </section>
 
     <section id="sobre">
         <h2>Sobre a Banda</h2>
-        <p>Twenty One Pilots é uma dupla formada em Columbus, Ohio, em 2009.
-    Composta por <strong>Tyler Joseph</strong> (vocal, piano)
-    e <strong>Josh Dun</strong> (bateria).
+        <p>
+            Twenty One Pilots é uma dupla formada em <strong>Columbus, Ohio</strong>, em 2009.
+            Composta por <strong>Tyler Joseph</strong> (vocal, piano) e <strong>Josh Dun</strong> (bateria),
+            a banda mistura estilos como indie pop, rap rock e electropop.
+        </p>
+        <p>
+            O nome é inspirado na peça <em>All My Sons</em>, de Arthur Miller,
+            que fala sobre dilemas morais — tema comum nas letras da banda.
         </p>
     </section>
 
     <section id="membros">
         <h2>Membros</h2>
 
-        <div class="membro">
-            <h3>Tyler Joseph</h3>
-            <p>Vocal, Piano, ukulele e baixo. Fundador da banda e principal compositor.
-        Nascido em 1 de dezembro de 1988, em Columbus, Ohio.</p>
-        </div>
-        <div class="membro">
-            <h3>Josh Dun</h3>
-            <p>Bateria e trompete. Entrou para a banda em 2011.
-        Conhecido pelas performances energéticas no palco.
-        Nascido em 18 de junho de 1988.</p>
+        <div class="membros-container">
+
+            <div class="membro">
+                <img src="img/tyler.png" alt="Tyler Joseph">
+                <h3>Tyler Joseph</h3>
+                <p>Vocal, Piano, Ukulele e Baixo. Fundador da banda e principal compositor.
+                Nascido em 1 de dezembro de 1988, em Columbus, Ohio.</p>
+            </div>
+
+            <div class="membro">
+                <img src="img/josh.png" alt="Josh Dun">
+                <h3>Josh Dun</h3>
+                <p>Bateria e Trompete. Entrou para a banda em 2011.
+                Conhecido pelas performances energéticas no palco.
+                Nascido em 18 de junho de 1988.</p>
+            </div>
+
         </div>
     </section>
 
@@ -55,42 +69,34 @@
         <h2>Discografia</h2>
 
         <div class="albums">
-
             <div class="album">
                 <h4>Twenty One Pilots</h4>
                 <span>2009</span>
             </div>
-
             <div class="album">
                 <h4>Regional at Best</h4>
                 <span>2011</span>
             </div>
-
             <div class="album">
                 <h4>Vessel</h4>
                 <span>2013</span>
             </div>
-
-            <div class="album">
+            <div class="album destaque">
                 <h4>Blurryface</h4>
                 <span>2015</span>
             </div>
-
             <div class="album">
                 <h4>Trench</h4>
                 <span>2018</span>
             </div>
-
             <div class="album">
                 <h4>Scaled and Icy</h4>
                 <span>2021</span>
             </div>
-
             <div class="album">
                 <h4>Clancy</h4>
                 <span>2024</span>
             </div>
-
             <div class="album">
                 <h4>Breach</h4>
                 <span>2025</span>
@@ -99,14 +105,18 @@
     </section>
 
     <section id="contato">
-    <h2>Contato</h2>
-    <form>
-        <input type="text" placeholder="Seu nome">
-        <input type="email" placeholder="Seu e-mail">
-        <textarea placeholder="Sua mensagem"></textarea>
-        <button type="submit">Enviar</button>
-    </form>
-</section>
+        <h2>Contato</h2>
+        <form>
+            <input type="text" placeholder="Seu nome">
+            <input type="email" placeholder="Seu e-mail">
+            <textarea placeholder="Sua mensagem..." rows="5"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2026 - Twenty One Pilots Página feita por fãs | Stay Alive | . Site desenvolvido por <a href="https://github.com/caio3011" target="_blank">Caio Portela do Nascimento,</a> <a href="https://github.com/p4ulo289" target="_blank">Paulo Henrique França da Silva,</a> <a href="https://github.com/othiandrade" target="_blank">Thiago Santos Andrade </a> </p>
+    </footer>
 
 </body>
 </html>
