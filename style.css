@@ -5,7 +5,11 @@
 }
 
 body {
+<<<<<<< Updated upstream
     font-family: sans-serif;
+=======
+    font-family: preconnect;
+>>>>>>> Stashed changes
     background-color: #202020;
     color: #d2cfbd;
 }
@@ -78,10 +82,13 @@ nav {
     border-radius: 4px;
 }
 
+<<<<<<< Updated upstream
 .btn:hover {
     background-color: #873132;
 }
 
+=======
+>>>>>>> Stashed changes
 #sobre {
     padding: 60px 32px;
     max-width: 800px;
@@ -113,6 +120,10 @@ nav {
     margin-bottom: 32px;
 }
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .membros-container {
     display: flex;
     justify-content: center;
@@ -170,6 +181,15 @@ nav {
     display: block;
 }
 
+<<<<<<< Updated upstream
+=======
+.album img {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+>>>>>>> Stashed changes
 .album span {
     color: #d2cfbd;
     font-size: 14px;
@@ -247,6 +267,18 @@ nav {
     background-color: #873132;
 }
 
+<<<<<<< Updated upstream
+=======
+.nav-links a:hover {
+    color: #e6413b;
+    text-decoration: underline;
+}
+
+.btn:hover {
+    background-color: #873132;
+}
+
+>>>>>>> Stashed changes
 ::selection {
     background-color: #fde61e;
     color: #202020;
@@ -258,6 +290,7 @@ footer {
     text-align: center;
 }
 
+<<<<<<< Updated upstream
 footer a {
     color: #fde61e;
     text-decoration: none;
@@ -268,6 +301,8 @@ footer a:hover {
     text-decoration: underline;
 }
 
+=======
+>>>>>>> Stashed changes
 .footer-content {
     display: flex;
     justify-content: space-between;
@@ -289,5 +324,10 @@ footer a:hover {
 }
 
 .footer-links a:hover {
+<<<<<<< Updated upstream
 color: #e6413b;
 }
+=======
+    color: #e6413b;
+}
+>>>>>>> Stashed changes
